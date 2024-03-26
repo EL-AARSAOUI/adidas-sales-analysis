@@ -35,7 +35,7 @@ ORDER BY total_revenue_per_category DESC;
 
 
 -- Geographical Analysis
-------the reveney per state
+------the revenue per state
 select Adidas..Sales.State, SUM([Total Sales]) as total_revenue_per_state
 from Adidas..Sales
 group by State
